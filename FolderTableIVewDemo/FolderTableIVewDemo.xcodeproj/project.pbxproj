@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B588488D1FA1809E00900FAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B588488C1FA1809E00900FAB /* AppDelegate.m */; };
+		B58848901FA1809E00900FAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B588488F1FA1809E00900FAB /* ViewController.m */; };
+		B58848931FA1809E00900FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58848911FA1809E00900FAB /* Main.storyboard */; };
+		B58848951FA1809E00900FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58848941FA1809E00900FAB /* Assets.xcassets */; };
+		B58848981FA1809E00900FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58848961FA1809E00900FAB /* LaunchScreen.storyboard */; };
+		B588489B1FA1809E00900FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B588489A1FA1809E00900FAB /* main.m */; };
+		B58848A51FA1809E00900FAB /* FolderTableIVewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58848A41FA1809E00900FAB /* FolderTableIVewDemoTests.m */; };
+		B58848B01FA1809F00900FAB /* FolderTableIVewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58848AF1FA1809F00900FAB /* FolderTableIVewDemoUITests.m */; };
+		B58848BF1FA1814C00900FAB /* MySectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58848BE1FA1814C00900FAB /* MySectionHeaderView.m */; };
+		B58848C11FA1815700900FAB /* MySectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58848C01FA1815700900FAB /* MySectionHeaderView.xib */; };
+		B58848C51FA1827000900FAB /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B58848C31FA1827000900FAB /* MyCell.m */; };
+		B58848C61FA1827000900FAB /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58848C41FA1827000900FAB /* MyCell.xib */; };
+		B58848CB1FA183C800900FAB /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B58848CA1FA183C800900FAB /* MyClass.m */; };
+		B58848CE1FA183EE00900FAB /* MyStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = B58848CD1FA183EE00900FAB /* MyStudent.m */; };
+		B58848D11FA18AEB00900FAB /* UIView+TC.m in Sources */ = {isa = PBXBuildFile; fileRef = B58848CF1FA18AEA00900FAB /* UIView+TC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B58848A11FA1809E00900FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58848801FA1809D00900FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B58848871FA1809E00900FAB;
+			remoteInfo = FolderTableIVewDemo;
+		};
+		B58848AC1FA1809F00900FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58848801FA1809D00900FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B58848871FA1809E00900FAB;
+			remoteInfo = FolderTableIVewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B58848881FA1809E00900FAB /* FolderTableIVewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolderTableIVewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B588488B1FA1809E00900FAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B588488C1FA1809E00900FAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B588488E1FA1809E00900FAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B588488F1FA1809E00900FAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B58848921FA1809E00900FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B58848941FA1809E00900FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B58848971FA1809E00900FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B58848991FA1809E00900FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B588489A1FA1809E00900FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B58848A01FA1809E00900FAB /* FolderTableIVewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolderTableIVewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58848A41FA1809E00900FAB /* FolderTableIVewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FolderTableIVewDemoTests.m; sourceTree = "<group>"; };
+		B58848A61FA1809F00900FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58848AB1FA1809F00900FAB /* FolderTableIVewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolderTableIVewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58848AF1FA1809F00900FAB /* FolderTableIVewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FolderTableIVewDemoUITests.m; sourceTree = "<group>"; };
+		B58848B11FA1809F00900FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58848BD1FA1814C00900FAB /* MySectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySectionHeaderView.h; sourceTree = "<group>"; };
+		B58848BE1FA1814C00900FAB /* MySectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySectionHeaderView.m; sourceTree = "<group>"; };
+		B58848C01FA1815700900FAB /* MySectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySectionHeaderView.xib; sourceTree = "<group>"; };
+		B58848C21FA1827000900FAB /* MyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		B58848C31FA1827000900FAB /* MyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		B58848C41FA1827000900FAB /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		B58848C91FA183C800900FAB /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		B58848CA1FA183C800900FAB /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		B58848CC1FA183EE00900FAB /* MyStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyStudent.h; sourceTree = "<group>"; };
+		B58848CD1FA183EE00900FAB /* MyStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStudent.m; sourceTree = "<group>"; };
+		B58848CF1FA18AEA00900FAB /* UIView+TC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TC.m"; sourceTree = "<group>"; };
+		B58848D01FA18AEA00900FAB /* UIView+TC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TC.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58848851FA1809E00900FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B588489D1FA1809E00900FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58848A81FA1809F00900FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B588487F1FA1809D00900FAB = {
+			isa = PBXGroup;
+			children = (
+				B588488A1FA1809E00900FAB /* FolderTableIVewDemo */,
+				B58848A31FA1809E00900FAB /* FolderTableIVewDemoTests */,
+				B58848AE1FA1809F00900FAB /* FolderTableIVewDemoUITests */,
+				B58848891FA1809E00900FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B58848891FA1809E00900FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58848881FA1809E00900FAB /* FolderTableIVewDemo.app */,
+				B58848A01FA1809E00900FAB /* FolderTableIVewDemoTests.xctest */,
+				B58848AB1FA1809F00900FAB /* FolderTableIVewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B588488A1FA1809E00900FAB /* FolderTableIVewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B58848D01FA18AEA00900FAB /* UIView+TC.h */,
+				B58848CF1FA18AEA00900FAB /* UIView+TC.m */,
+				B588488B1FA1809E00900FAB /* AppDelegate.h */,
+				B588488C1FA1809E00900FAB /* AppDelegate.m */,
+				B588488E1FA1809E00900FAB /* ViewController.h */,
+				B588488F1FA1809E00900FAB /* ViewController.m */,
+				B58848D21FA18F6F00900FAB /* Model */,
+				B58848C81FA183AE00900FAB /* View */,
+				B58848911FA1809E00900FAB /* Main.storyboard */,
+				B58848941FA1809E00900FAB /* Assets.xcassets */,
+				B58848961FA1809E00900FAB /* LaunchScreen.storyboard */,
+				B58848991FA1809E00900FAB /* Info.plist */,
+				B588489A1FA1809E00900FAB /* main.m */,
+			);
+			path = FolderTableIVewDemo;
+			sourceTree = "<group>";
+		};
+		B58848A31FA1809E00900FAB /* FolderTableIVewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B58848A41FA1809E00900FAB /* FolderTableIVewDemoTests.m */,
+				B58848A61FA1809F00900FAB /* Info.plist */,
+			);
+			path = FolderTableIVewDemoTests;
+			sourceTree = "<group>";
+		};
+		B58848AE1FA1809F00900FAB /* FolderTableIVewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B58848AF1FA1809F00900FAB /* FolderTableIVewDemoUITests.m */,
+				B58848B11FA1809F00900FAB /* Info.plist */,
+			);
+			path = FolderTableIVewDemoUITests;
+			sourceTree = "<group>";
+		};
+		B58848C81FA183AE00900FAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B58848BD1FA1814C00900FAB /* MySectionHeaderView.h */,
+				B58848BE1FA1814C00900FAB /* MySectionHeaderView.m */,
+				B58848C01FA1815700900FAB /* MySectionHeaderView.xib */,
+				B58848C21FA1827000900FAB /* MyCell.h */,
+				B58848C31FA1827000900FAB /* MyCell.m */,
+				B58848C41FA1827000900FAB /* MyCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B58848D21FA18F6F00900FAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B58848C91FA183C800900FAB /* MyClass.h */,
+				B58848CA1FA183C800900FAB /* MyClass.m */,
+				B58848CC1FA183EE00900FAB /* MyStudent.h */,
+				B58848CD1FA183EE00900FAB /* MyStudent.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58848871FA1809E00900FAB /* FolderTableIVewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58848B41FA1809F00900FAB /* Build configuration list for PBXNativeTarget "FolderTableIVewDemo" */;
+			buildPhases = (
+				B58848841FA1809E00900FAB /* Sources */,
+				B58848851FA1809E00900FAB /* Frameworks */,
+				B58848861FA1809E00900FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FolderTableIVewDemo;
+			productName = FolderTableIVewDemo;
+			productReference = B58848881FA1809E00900FAB /* FolderTableIVewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B588489F1FA1809E00900FAB /* FolderTableIVewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58848B71FA1809F00900FAB /* Build configuration list for PBXNativeTarget "FolderTableIVewDemoTests" */;
+			buildPhases = (
+				B588489C1FA1809E00900FAB /* Sources */,
+				B588489D1FA1809E00900FAB /* Frameworks */,
+				B588489E1FA1809E00900FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B58848A21FA1809E00900FAB /* PBXTargetDependency */,
+			);
+			name = FolderTableIVewDemoTests;
+			productName = FolderTableIVewDemoTests;
+			productReference = B58848A01FA1809E00900FAB /* FolderTableIVewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B58848AA1FA1809F00900FAB /* FolderTableIVewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58848BA1FA1809F00900FAB /* Build configuration list for PBXNativeTarget "FolderTableIVewDemoUITests" */;
+			buildPhases = (
+				B58848A71FA1809F00900FAB /* Sources */,
+				B58848A81FA1809F00900FAB /* Frameworks */,
+				B58848A91FA1809F00900FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B58848AD1FA1809F00900FAB /* PBXTargetDependency */,
+			);
+			name = FolderTableIVewDemoUITests;
+			productName = FolderTableIVewDemoUITests;
+			productReference = B58848AB1FA1809F00900FAB /* FolderTableIVewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58848801FA1809D00900FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TCGroup;
+				TargetAttributes = {
+					B58848871FA1809E00900FAB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					B588489F1FA1809E00900FAB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B58848871FA1809E00900FAB;
+					};
+					B58848AA1FA1809F00900FAB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B58848871FA1809E00900FAB;
+					};
+				};
+			};
+			buildConfigurationList = B58848831FA1809D00900FAB /* Build configuration list for PBXProject "FolderTableIVewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B588487F1FA1809D00900FAB;
+			productRefGroup = B58848891FA1809E00900FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58848871FA1809E00900FAB /* FolderTableIVewDemo */,
+				B588489F1FA1809E00900FAB /* FolderTableIVewDemoTests */,
+				B58848AA1FA1809F00900FAB /* FolderTableIVewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B58848861FA1809E00900FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58848981FA1809E00900FAB /* LaunchScreen.storyboard in Resources */,
+				B58848951FA1809E00900FAB /* Assets.xcassets in Resources */,
+				B58848931FA1809E00900FAB /* Main.storyboard in Resources */,
+				B58848C11FA1815700900FAB /* MySectionHeaderView.xib in Resources */,
+				B58848C61FA1827000900FAB /* MyCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B588489E1FA1809E00900FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58848A91FA1809F00900FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58848841FA1809E00900FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58848CB1FA183C800900FAB /* MyClass.m in Sources */,
+				B58848D11FA18AEB00900FAB /* UIView+TC.m in Sources */,
+				B58848CE1FA183EE00900FAB /* MyStudent.m in Sources */,
+				B58848901FA1809E00900FAB /* ViewController.m in Sources */,
+				B588489B1FA1809E00900FAB /* main.m in Sources */,
+				B588488D1FA1809E00900FAB /* AppDelegate.m in Sources */,
+				B58848C51FA1827000900FAB /* MyCell.m in Sources */,
+				B58848BF1FA1814C00900FAB /* MySectionHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B588489C1FA1809E00900FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58848A51FA1809E00900FAB /* FolderTableIVewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58848A71FA1809F00900FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58848B01FA1809F00900FAB /* FolderTableIVewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B58848A21FA1809E00900FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B58848871FA1809E00900FAB /* FolderTableIVewDemo */;
+			targetProxy = B58848A11FA1809E00900FAB /* PBXContainerItemProxy */;
+		};
+		B58848AD1FA1809F00900FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B58848871FA1809E00900FAB /* FolderTableIVewDemo */;
+			targetProxy = B58848AC1FA1809F00900FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B58848911FA1809E00900FAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58848921FA1809E00900FAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B58848961FA1809E00900FAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58848971FA1809E00900FAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B58848B21FA1809F00900FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B58848B31FA1809F00900FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B58848B51FA1809F00900FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP94C2G7MQ;
+				INFOPLIST_FILE = FolderTableIVewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcgroup.FolderTableIVewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B58848B61FA1809F00900FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP94C2G7MQ;
+				INFOPLIST_FILE = FolderTableIVewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcgroup.FolderTableIVewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B58848B81FA1809F00900FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FolderTableIVewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcgroup.FolderTableIVewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolderTableIVewDemo.app/FolderTableIVewDemo";
+			};
+			name = Debug;
+		};
+		B58848B91FA1809F00900FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FolderTableIVewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcgroup.FolderTableIVewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolderTableIVewDemo.app/FolderTableIVewDemo";
+			};
+			name = Release;
+		};
+		B58848BB1FA1809F00900FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FolderTableIVewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcgroup.FolderTableIVewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FolderTableIVewDemo;
+			};
+			name = Debug;
+		};
+		B58848BC1FA1809F00900FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FolderTableIVewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcgroup.FolderTableIVewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FolderTableIVewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58848831FA1809D00900FAB /* Build configuration list for PBXProject "FolderTableIVewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58848B21FA1809F00900FAB /* Debug */,
+				B58848B31FA1809F00900FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58848B41FA1809F00900FAB /* Build configuration list for PBXNativeTarget "FolderTableIVewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58848B51FA1809F00900FAB /* Debug */,
+				B58848B61FA1809F00900FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58848B71FA1809F00900FAB /* Build configuration list for PBXNativeTarget "FolderTableIVewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58848B81FA1809F00900FAB /* Debug */,
+				B58848B91FA1809F00900FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58848BA1FA1809F00900FAB /* Build configuration list for PBXNativeTarget "FolderTableIVewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58848BB1FA1809F00900FAB /* Debug */,
+				B58848BC1FA1809F00900FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58848801FA1809D00900FAB /* Project object */;
+}
