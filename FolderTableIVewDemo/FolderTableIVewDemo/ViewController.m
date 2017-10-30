@@ -99,7 +99,6 @@
     header.class_model = class;
     header.headViewClick = ^(MyClass *class_model) {
         /** 根据open参数进行tableView的开合*/
-        class.open = !class.open;
         if (class.open) {
             
             NSMutableArray *indexPaths = [NSMutableArray array];
